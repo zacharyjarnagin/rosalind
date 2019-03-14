@@ -11,6 +11,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Rosalind$CountingDNANucleotides.coverage" NAME="CountingDNANucleotides Coverage Results" MODIFIED="1552424952451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bioinformatics_Stronghold" />
     <SUITE FILE_PATH="coverage/Rosalind$Finding_a_Motif_in_DNA.coverage" NAME="Finding_a_Motif_in_DNA Coverage Results" MODIFIED="1552583369779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bioinformatics_Stronghold" />
+    <SUITE FILE_PATH="coverage/Rosalind$Rabbits_and_Recurrence_Relations.coverage" NAME="Rabbits_and_Recurrence_Relations Coverage Results" MODIFIED="1552591611078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bioinformatics_Stronghold" />
     <SUITE FILE_PATH="coverage/Rosalind$ComputingGCContent.coverage" NAME="ComputingGCContent Coverage Results" MODIFIED="1552508526142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bioinformatics_Stronghold" />
     <SUITE FILE_PATH="coverage/Rosalind$Counting_Point_Motations.coverage" NAME="Counting_Point_Motations Coverage Results" MODIFIED="1552585136399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bioinformatics_Stronghold" />
     <SUITE FILE_PATH="coverage/Rosalind$TranslatingRNAIntoProtein.coverage" NAME="TranslatingRNAIntoProtein Coverage Results" MODIFIED="1552582889824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bioinformatics_Stronghold" />
@@ -21,10 +22,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Bioinformatics_Stronghold/Counting_Point_Motations.py">
+        <entry file="file://$PROJECT_DIR$/Bioinformatics_Stronghold/Rabbits_and_Recurrence_Relations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="799">
+              <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -60,6 +61,7 @@
         <option value="$PROJECT_DIR$/Bioinformatics_Stronghold/TranslatingRNAIntoProtein.py" />
         <option value="$PROJECT_DIR$/Bioinformatics_Stronghold/Finding_a_Motif_in_DNA.py" />
         <option value="$PROJECT_DIR$/Bioinformatics_Stronghold/Counting_Point_Motations.py" />
+        <option value="$PROJECT_DIR$/Bioinformatics_Stronghold/Rabbits_and_Recurrence_Relations.py" />
       </list>
     </option>
   </component>
@@ -117,7 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Counting_Point_Motations">
+  <component name="RunManager" selected="Python.Rabbits_and_Recurrence_Relations">
     <configuration name="ComputingGCContent" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Rosalind" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,7 +186,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MendelsFirstLaw" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Rabbits_and_Recurrence_Relations" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Rosalind" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,7 +199,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bioinformatics_Stronghold/MendelsFirstLaw.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bioinformatics_Stronghold/Rabbits_and_Recurrence_Relations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Rabbits_and_Recurrence_Relations" />
         <item itemvalue="Python.Counting_Point_Motations" />
         <item itemvalue="Python.Finding_a_Motif_in_DNA" />
         <item itemvalue="Python.TranslatingRNAIntoProtein" />
         <item itemvalue="Python.ComputingGCContent" />
-        <item itemvalue="Python.MendelsFirstLaw" />
       </list>
     </recent_temporary>
   </component>
@@ -250,23 +252,22 @@
       <updated>1552424872539</updated>
       <workItem from="1552424876305" duration="14900000" />
       <workItem from="1552582663572" duration="1018000" />
-      <workItem from="1552584659969" duration="523000" />
+      <workItem from="1552584659969" duration="2623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16441000" />
+    <option name="totallyTimeSpent" value="18541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25663084" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -354,8 +355,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bioinformatics_Stronghold/Counting_Point_Motations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="187">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bioinformatics_Stronghold/Rabbits_and_Recurrence_Relations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
         </state>
       </provider>
     </entry>
