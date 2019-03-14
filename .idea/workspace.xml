@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed3e64c9-77a4-4d6f-86c0-e03668284f9d" name="Default Changelist" comment="" />
+    <list default="true" id="ed3e64c9-77a4-4d6f-86c0-e03668284f9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Zach.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Rosalind$CountingDNANucleotides.coverage" NAME="CountingDNANucleotides Coverage Results" MODIFIED="1552424952451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bioinformatics_Stronghold" />
     <SUITE FILE_PATH="coverage/Rosalind$ComputingGCContent.coverage" NAME="ComputingGCContent Coverage Results" MODIFIED="1552508526142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bioinformatics_Stronghold" />
+    <SUITE FILE_PATH="coverage/Rosalind$TranslatingRNAIntoProtein.coverage" NAME="TranslatingRNAIntoProtein Coverage Results" MODIFIED="1552523981130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bioinformatics_Stronghold" />
     <SUITE FILE_PATH="coverage/Rosalind$ComplementingDNA.coverage" NAME="ComplementingDNA Coverage Results" MODIFIED="1552431361835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bioinformatics_Stronghold" />
     <SUITE FILE_PATH="coverage/Rosalind$MendelsFirstLaw.coverage" NAME="MendelsFirstLaw Coverage Results" MODIFIED="1552494489991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bioinformatics_Stronghold" />
     <SUITE FILE_PATH="coverage/Rosalind$TranscribingDNAIntoRNA.coverage" NAME="TranscribingDNAIntoRNA Coverage Results" MODIFIED="1552431056719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bioinformatics_Stronghold" />
@@ -18,10 +22,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Bioinformatics_Stronghold/ComputingGCContent.py">
+        <entry file="file://$PROJECT_DIR$/Bioinformatics_Stronghold/TranslatingRNAIntoProtein.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="697">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bioinformatics_Stronghold/ComplementingDNA.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="16" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -54,6 +67,7 @@
         <option value="$PROJECT_DIR$/ComputingGCContent.py" />
         <option value="$PROJECT_DIR$/Bioinformatics_Stronghold/FASTA.txt" />
         <option value="$PROJECT_DIR$/Bioinformatics_Stronghold/ComputingGCContent.py" />
+        <option value="$PROJECT_DIR$/Bioinformatics_Stronghold/TranslatingRNAIntoProtein.py" />
       </list>
     </option>
   </component>
@@ -111,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ComputingGCContent">
+  <component name="RunManager" selected="Python.TranslatingRNAIntoProtein">
     <configuration name="ComplementingDNA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Rosalind" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,28 +162,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bioinformatics_Stronghold/ComputingGCContent.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="CountingDNANucleotides" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Rosalind" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bioinformatics_Stronghold" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bioinformatics_Stronghold/CountingDNANucleotides.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,13 +214,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TranslatingRNAIntoProtein" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Rosalind" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bioinformatics_Stronghold" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bioinformatics_Stronghold/TranslatingRNAIntoProtein.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.TranslatingRNAIntoProtein" />
         <item itemvalue="Python.ComputingGCContent" />
         <item itemvalue="Python.MendelsFirstLaw" />
         <item itemvalue="Python.ComplementingDNA" />
         <item itemvalue="Python.TranscribingDNAIntoRNA" />
-        <item itemvalue="Python.CountingDNANucleotides" />
       </list>
     </recent_temporary>
   </component>
@@ -242,16 +256,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552424872539</updated>
-      <workItem from="1552424876305" duration="10861000" />
+      <workItem from="1552424876305" duration="13982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10861000" />
+    <option name="totallyTimeSpent" value="13982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24946237" />
@@ -293,13 +306,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="66" selection-start-column="66" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bioinformatics_Stronghold/ComplementingDNA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="68" selection-start-column="68" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -357,8 +363,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bioinformatics_Stronghold/ComputingGCContent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="17">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bioinformatics_Stronghold/ComplementingDNA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bioinformatics_Stronghold/TranslatingRNAIntoProtein.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
