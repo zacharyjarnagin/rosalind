@@ -42,5 +42,5 @@ def find_motif():
     return max(possible_motifs, key=len)
 
 
-# print the longests strand
+# print the longest strand
 print(find_motif())

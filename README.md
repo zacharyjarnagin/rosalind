@@ -10,4 +10,7 @@ Mission statement: We hope that Rosalind will inspire a new generation of bioinf
 ### My Goal
 The purpose of this repo is to keep track of my progress through the Rosalind Bioinformatics course. As I solve each exercise in Python 3 with the PyCharm IDE, I will be updating this repository with Git VCS on a Ubuntu subsystem on my Windows 10 OS. As I complete each exercise, I aim to achieve a better understanding of the growing field of bioinformatics, as well as biology, Python, and computer science.
 
+### To use
+Download and run some of the python scripts! Some of the more advanced programs request a .txt file location, such as the ones dealing with DNA/RNA strands.
+
 The Rosalind website can be found **[here](http://rosalind.info/)**.
